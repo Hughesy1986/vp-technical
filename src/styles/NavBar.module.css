@@ -1,0 +1,34 @@
+.navBar_container {
+    background-color: rgb(50, 170, 60);
+    margin-bottom: 1rem;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_items > li {
+    display: inline-block;
+    min-height: 100%;
+    list-style-type: none;
+}
+
+.nav_link {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 1rem;
+    min-height: 100%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav_link:hover {
+    background-color: #fff;
+    color: #888;
+    cursor: pointer;
+}

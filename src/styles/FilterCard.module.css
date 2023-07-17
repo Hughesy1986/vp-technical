@@ -1,0 +1,51 @@
+.filterCard_container {
+    max-width: 300px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #888;
+    margin: 1rem 0.5rem;
+    color: #333;
+}
+
+.filterCard_header {
+    padding: 0.7rem;
+    margin-bottom: 0.7rem;
+    border-bottom: 1px solid #888;
+}
+
+.filterCard_listItem {
+    display: flex;
+}
+
+.filterCard_checkboxContainer {
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 0.5rem;
+    padding: 0 1rem;
+}
+
+.filterCard_checkboxContainer > input {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.filterCard_checkboxContainer > label {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+
+.filterCard_checkboxContainer > * {
+    cursor: pointer;
+}
+
+.filterCard_checkboxContainer > a {
+    color: rgb(64, 133, 72);
+    text-decoration: none;
+}
+
+.filterCard_checkboxContainer > a:hover {
+    color: rgb(64, 133, 72);
+    text-decoration: underline;
+}
